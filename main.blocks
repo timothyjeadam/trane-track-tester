@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id=",V)jUjxW@XHt,cK/lCzI" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="unM|%h1v7LT-{@eqnM!#"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="4o](CXua`OW_M=,%Xe?*"><field name="NAME">TouchPin.P0</field></block></value><statement name="DO0"><block type="device_show_leds" id="o}8G0kwKIQjHe(uQ$Y)F"><field name="LEDS">`
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . . 
+        . . . . .
+        `</field><next><block type="device_led_toggle" id="v}%m/I{s@54I16xr#_@p"><value name="x"><shadow type="math_number_minmax" id="l|Z#i/KW.}tIx[I`[W;J"><mutation min="0" max="4" label="X" precision="1"/><field name="SLIDER">4</field></shadow></value><value name="y"><shadow type="math_number_minmax" id="kg^]Xop[e108oaQ|SG=0"><mutation min="0" max="4" label="Y" precision="1"/><field name="SLIDER">4</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="}Vo%}56boh]c{E`.jGul"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="device_led_toggle" id="DxV/,_k[=_qJ6|1kGUg$"><value name="x"><shadow type="math_number_minmax" id="FW@.zK}esuwix!L=RuWf"><mutation min="0" max="4" label="X" precision="1"/><field name="SLIDER">2</field></shadow></value><value name="y"><shadow type="math_number_minmax" id="i{wS6}es?QzjzH~MUZ@x"><mutation min="0" max="4" label="Y" precision="1"/><field name="SLIDER">2</field></shadow></value></block></next></block></statement></block></statement></block></xml>
